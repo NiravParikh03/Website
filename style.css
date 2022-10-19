@@ -1,0 +1,333 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito' sans-serif;
+}
+.navbar-brand{
+    font-size: 16px;
+    margin: 3px;
+    color: black!important;
+    font-weight: 900;
+    font-family: 'popins';
+}
+.nav-bar 
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.menu-bar
+{
+    width: 100%;
+    background-image: white;
+} 
+
+.nav-link
+{
+    font-size: 16px;
+    margin: 3px;
+    color: black!important;
+    font-weight: 500;  
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.navbar{
+    background: rgb(213, 206, 206);
+
+}
+.navbar-nav{
+    text-align:justify;
+    margin-right: 20px;
+}
+.menu-bar .navbar-toggler
+{
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+.navbar .fa
+{
+    color: white!important;
+    font-size: 1px;
+}
+
+.navbar-nav li a{
+    float: left;
+    text-align: right;
+}
+.nav-link:hover
+{
+    font-weight: 600;
+    border-bottom: 2px solid #000; 
+    justify-content: left;  
+} 
+
+@media only screen and(max-width: 1000px)
+{
+    .nav-link:hover
+    {
+        border-bottom: none!important;
+    }
+}
+#slider
+{
+    width: 100%;
+    background-color: rgb(240, 237, 237); 
+}
+.carousal-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.carousal-caption h3
+{
+    color: white;
+    font-size: 42px;
+}
+#about 
+{
+Padding-top: 50px;
+Padding-bottom: 50px;
+Color: #555;
+ }
+#about .btn
+{
+Margin-top: 20px;
+Margin-bottom: 30px;
+}
+.about content 
+{
+Margin-top: 20px;
+}
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(image/services.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+    align-items: center;
+}
+#services h1
+{
+    text-align: center;
+    color: #efefef;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+#services h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services 
+{
+    margin-top: 40px
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#services p
+{
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+}
+.services .col-md-3:hover
+{
+    background: blue;
+    cursor: pointer;
+    transition: 0.7;
+
+}
+#promo
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7)),rgba(0,0,0,0.7),url();
+    background-size: cover;
+    background-position: center;
+    color: black;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}    
+@media only screen and (max-width: 600px){
+
+    #promo{
+        font-size: 20px;
+    }
+}
+#price
+{   
+    font-family: sans-serif;
+    padding: 40px 0;
+    background: white;
+    text-align: center;
+}
+.single-price
+{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.single-price:hover
+{
+    box-shadow: 0 2px 20px #333;
+}
+.price-head
+{
+    background-color: rgb(5, 182, 252);
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+    
+}
+.price-head h2
+{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.price-head p
+{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+}
+#price span
+{
+    font-size: 15px;
+}
+.price-content
+{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+.price-content ul li
+{
+    border-bottom: 1px solid white;
+    padding: 15px 5px;
+    list-style: none;
+    text-align: left;
+}
+ul li:last-child
+{
+    border: none;
+}
+.fa-check-circle
+{
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.fa-times-circle
+{
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.price-button
+{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+.buy-btn
+{
+    background-color: #2196f3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+.buy-btn:hover{
+    color: #fff;
+    background-color: #3f51b5;
+}
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+#contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: black;
+    text-align: center;
+    
+}
+.contact-form
+{
+    padding: 15px;
+
+}
+.form-control
+{
+    border-radius: 0 !important;
+    border: none !important;
+}
+::placeholder
+{
+    color: #999 !important;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+}
+.contact-info .fa
+{
+    margin: 10px;
+    font-weight: bold;
+}
+#footer
+{
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+}
+.fa-heart-o
+{
+    margin: 3px;
+    color: red;
+}
